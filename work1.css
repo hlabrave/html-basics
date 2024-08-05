@@ -8,6 +8,7 @@ body {
     background-color: #111;
     color: white;
 }
+
 header {
     background-color: black;
     padding: 20px 0;
@@ -21,7 +22,7 @@ header {
     align-items: center;
 }
 .logo {
-    color: #FF0066;
+    color: #f38a8a;
     font-size: 24px;
     font-weight: bold;
 }
@@ -40,7 +41,7 @@ nav a.active, nav a:hover {
     border-bottom: 2px solid #FF0066;
 }
 .btn-connect {
-    background: linear-gradient(to right, #FF0066, #FFCC00);
+    background: linear-gradient(to right, rgb(255, 0, 102), #FFCC00);
     color: white;
     padding: 10px 20px;
     border-radius: 20px;
@@ -81,7 +82,7 @@ main {
     margin-left: 10px;
 }
 .about-me {
-    padding: 50px 20px;
+    padding-left: 530px;
     background-color: #111;
     text-align: center;
 }
@@ -169,10 +170,11 @@ main {
 .stat {
     text-align: center;
     color: white;
+    padding-left: 250px;
 }
 .stat span {
     font-size: 32px;
-    color: #FF0066;
+    color: #df18a3;
 }
 .stat p {
     margin-top: 10px;
@@ -180,7 +182,7 @@ main {
     color: #888;
 }
 .services {
-    padding: 50px 20px;
+    padding-left: 520px;
     background-color: #111;
     text-align: center;
 }
